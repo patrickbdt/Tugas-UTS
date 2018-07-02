@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas UTS</title>
+	<link rel="stylesheet" href="css/style2.css">
+	 <!-- <script src="js/main.js"></script> -->
+</head>
+<body>
+	<div class="container">
+		<!-- header -->
+		<header>
+			<h1>Halaman Biodata</h1>
+			<p> Nama saya Patrick Budianto, lahir di Bekasi tanggal : 24-07-1998, dan sekarang saya kuliah di Pelita Bangsa </p>
+
+			<br>
+
+			<a class="btn btn-medium" href="" onclick="return LearnMore();">Learn More>></a>
+		</header><!-- endof header -->
+
+		<!-- navigasi -->
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="profile.html">Profile</a>
+			<a href="kontak.html">Kontak</a>
+		</nav><!-- endof navigasi -->
+
+		<!-- wrapcontent -->
+		<div class="wrap">
+			<div class="side">
+				<div class="widget-box">
+					<h3 class="title">Widget</h3>
+					 <form name = "formwaktu">
+waktu sekarang :
+<input type = "text"
+                   name = "tekswaktu"
+       value = ""
+       size = "22">
+</form>
+
+<script language= "JavaScript">
+<!--
+                function aturwaktu () {
+                                var sekarang = new Date ();
+                                var waktusekarang = sekarang.toLocaleString();
+                               
+                                document.formwaktu.tekswaktu.value = waktusekarang;
+                               
+                                setTimeOut ('aturwaktu()', 1000);
+                               
+                                return(true);
+                }
+               
+                aturwaktu();
+//-->
+
+</script>
+<a href="">Berita Bola</a>
+				</div>
+				<div class="widget-box">
+					<h3 class="title">Contoh Alert</h3>
+					<p>
+						<a href="#" class="btn btn-large" onclick="return alert('h');">Tampilkan Alert</a><br>
+						<a class="btn btn-large" href="#" onclick="return ubahText();">Ubah Teks</a>
+						<a class="btn btn-large" href="#" onclick="return tambahArtikel();">Tambah Artikel</a>
+					</p>
+				</div>
+			</div>
+			<div class="content">
+				
+				<div class="post">
+					<h1 class="title">My Hobi</h1>
+					<img src="futsal.jpg" alt="">
+					<p>Hobi saya bermain futsal dan mendengarkan musik</p>
+				</div><!-- endof .post -->
+
+			</div><!-- endof .content -->
+		</div><!-- endof .wrapcontent -->
+
+		<!-- footer -->
+		<footer>
+			<p>&copy; 2018,  Patrick Budianto</p>
+		</footer><!-- endof footer -->
+
+	</div><!-- endof .container -->
+</body>
+</html>
